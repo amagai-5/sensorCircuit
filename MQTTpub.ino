@@ -9,8 +9,8 @@
 #include <Wire.h>
 
 // Replace the next variables with your SSID/Password combination
-char* ssid = "sogo"; // TSE-EUROP
-const char* password = "Sougo0122"; //ESATSI-ISTASE
+char* ssid = "SSID"; // 
+const char* password = "WIFI-PASS"; 
 const char* mqtt_server = "172.20.10.3"; // ip address shold be chnged based on wifi you connected 
 WiFiClient espClient;
 PubSubClient client(espClient);
